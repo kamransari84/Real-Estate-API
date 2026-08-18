@@ -26,7 +26,7 @@ app.use("/api/payment", paymentRoutes);
 
 // Home Route
 app.get("/", (req, res) => {
-  res.send("Welcome to World of Real Estate!");
+  res.send("Welcome to Real Estate API!");
 });
 
 // Server Start
